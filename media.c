@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-  int idade, matricula;
-  float altura;
+  int idade = 0, matricula = 0;
+  float altura = 0;
   chat nome[50];
 
   printf("Digite a sua idade: \n");
