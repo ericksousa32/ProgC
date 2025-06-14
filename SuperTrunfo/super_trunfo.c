@@ -2,9 +2,9 @@
 #include <locale.h>
 
 int main(){
-	setlocale(LC_ALL, "Portuguese");
-
-	// Declarando e iniciando variáveis.
+    setlocale(LC_ALL, "Portuguese");
+	
+    // Declarando e iniciando variáveis.
 
     char estado1, estado2;
     char codigo1[4], codigo2[4];
@@ -67,7 +67,7 @@ int main(){
     scanf("%d", &pontos2);
 
     // Imprimindo resultados
-
+	
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
@@ -85,6 +85,6 @@ int main(){
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontos2);
-
-	return 0;
+	
+    return 0;
 }
