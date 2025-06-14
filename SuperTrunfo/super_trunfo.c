@@ -2,9 +2,9 @@
 #include <locale.h>
 
 int main(){
-    setlocale(LC_ALL, "Portuguese");
-	
-    // Declarando e iniciando variáveis.
+	setlocale(LC_ALL, "Portuguese");
+
+	// Declarando e iniciando variáveis.
 
     char estado1, estado2;
     char codigo1[4], codigo2[4];
@@ -41,6 +41,17 @@ int main(){
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontos1);
 
+    // Imprimindo resultados da Carta 1.
+
+    printf("\nCarta 1:\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Nome da Cidade: %s\n", cidade1);
+    printf("População: %d\n", pop1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n", pontos1);
+
     // Coletando dados da segunda carta.
 
     printf("\nAgora, insira os dados da segunda carta.\n");
@@ -66,16 +77,7 @@ int main(){
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontos2);
 
-    // Imprimindo resultados
-	
-    printf("\nCarta 1:\n");
-    printf("Estado: %c\n", estado1);
-    printf("Código: %s\n", codigo1);
-    printf("Nome da Cidade: %s\n", cidade1);
-    printf("População: %d\n", pop1);
-    printf("Área: %.2f km²\n", area1);
-    printf("PIB: %.2f bilhões de reais\n", pib1);
-    printf("Número de Pontos Turísticos: %d\n", pontos1);
+    // Imprimindo resultados da carta 2.
 
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
@@ -85,6 +87,6 @@ int main(){
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontos2);
-	
-    return 0;
+
+	return 0;
 }
