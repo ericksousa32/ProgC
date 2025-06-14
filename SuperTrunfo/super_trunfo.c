@@ -77,7 +77,7 @@ int main(){
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontos2);
 
-    // Imprimindo resultados da carta 2.
+    // Imprimindo resultados da Carta 2.
 
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
