@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <locale.h>
 
+//Nível Novato: Cadastro Básico
+
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 
